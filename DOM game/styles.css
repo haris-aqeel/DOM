@@ -1,0 +1,181 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(62,20,20,0.4),rgba(62,20,20,0.4)),url('images/back.jpg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    background-color: white;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow:row nowrap ;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.btn-new{
+    border: none;
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 20px;
+    margin-top:30px;
+    padding:10px;
+    position: absolute;
+    left: 715px;
+    background-color: transparent;
+}
+
+.btn-new i {
+    color: red;
+    margin-right:10px;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+.playerNumber{
+    font-family: monospace;
+    font-size: 48px;
+    color: black;
+    font-weight: 200;
+
+}
+
+.score{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 56px;
+    color: red;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+
+.player1{
+    width: 50%;
+    height: 100%;
+    padding: 150px 10px 100px 10px; 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.player2{
+    width: 50%;
+    height: 100%;
+    padding: 150px 10px 100px 10px; 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.btn-roll{
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 715px;
+    bottom:170px;
+    background-color: transparent;
+
+}
+
+.btn-roll i {
+    color: red;
+    margin-right: 10px;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+
+
+.btn-hold{
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 740px;
+    bottom: 110px;
+    background-color: transparent;
+
+}
+
+.btn-hold i {
+    color: red;
+    margin-right:10px;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+
+.box{
+    font-weight: 800;
+    display: flex;
+    position: relative;
+    top: 135px;
+    height: 70px;
+    width: 100px;
+    flex-flow: column nowrap;
+    background-color: #EB4D4D;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: Lato;
+    font-size: 14px;
+    color: #222;   
+
+}
+
+.total_score{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dices{
+    position: absolute;
+    width: 100px;
+    left: 760px;
+    bottom: 350px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.active {
+    background-image: url('images/dice-1.png');
+    background-repeat: no-repeat;
+    background-position: 90% 27%;
+    background-size: 70px 70px;
+    background-color: #f7f7f7;
+    
+}
+
+.winner { background-color: #f7f7f7; }
+.winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+button:focus {
+    outline: none;
+}
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+

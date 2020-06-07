@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>DOM game</title>
+</head>
+<body>
+
+    <section class = "cards">
+
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        
+        <!--All about Player1-->
+        <div class = "player1 active">
+            
+            <h1 class="playerNumber" id = "one">Player 1</h1>
+            <p class="score" id="current_totalscore_1">43</p>
+            <div class="box">
+                <p>CURRENT</p>
+                <p class="total_score" id = "current_score_1">11</p>
+            </div>
+
+        
+        </div>
+
+        <!--All about Player1-->
+        <div class = "player2">
+
+            <h1 class="playerNumber" id="two">Player 2</h1>
+            <p class="score" id="current_totalscore_2">72</p>
+            <div class="box">
+                <p>CURRENT</p>
+                <p class="total_score" id="current_score_2">0</p>
+            </div>
+
+        </div>
+        
+        <!--Buttons-->
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+        <img class="dices" src= 'images/dice-5.png'>
+
+    </section>
+
+    
+        
+            
+            
+    
+</body>
+<script src="app.js"></script>
+</html>
